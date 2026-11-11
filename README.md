@@ -1,6 +1,6 @@
 # Zaidan Trainer - Assassin's Creed Shadows
 
-Trainer buatan sendiri (Python + tkinter). Tanpa exe FLiNG, tanpa DLL, tanpa koneksi internet.
+Trainer buatan sendiri (Python + tkinter). Tanpa Malware segala jenis, tanpa DLL, tanpa koneksi internet.
 
 ## Cara pakai
 1. Install Python 64-bit, lalu jalankan `build.bat` (atau langsung `py zaidan_trainer.py` sebagai Administrator).
