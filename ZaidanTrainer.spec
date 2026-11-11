@@ -1,6 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
-# Spec PyInstaller: ikon Z biru, metadata publisher ZaidanStore, dan zaidan.ico ikut dibundle
-# (dipakai _set_icon() untuk ikon jendela).
+
 
 a = Analysis(
     ['zaidan_trainer.py'],
@@ -33,9 +32,9 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='zaidan.ico',
     version='version_info.txt',
     uac_admin=True,
+    icon=['zaidan.ico'],
 )
 coll = COLLECT(
     exe,

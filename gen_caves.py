@@ -177,6 +177,7 @@ PATCH_sr1:
  mov rax,qword ptr [rcx+0x20]
  test byte ptr [rax+0xB],0x80
 2:
+ mov rax,qword ptr [rcx+0x20]
 """),
  dict(name="focus_add", group="focus_add", pat="C5 FA 58 49 0C 48 8B * 45 * * FF * * * 00 00", off=0x0, plen=5,
       body=f"""

@@ -151,6 +151,7 @@ cave_godmode:
  mov rax,qword ptr [rcx+0x20]
  test byte ptr [rax+0xB],0x80
 2:
+ mov rax,qword ptr [rcx+0x20]
  jmp qword ptr [rip+ret_godmode]
 .org 0x3000
 cave_focus_add:
